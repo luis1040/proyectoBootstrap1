@@ -1,33 +1,41 @@
-.colorsection{
+.col{
+    background-color: black;
+    color: white;
+    padding: 2em;
+    font-size: 16px;
+}
+.col-12{
     background-color: #dee3e2;
-    padding: 30px;
-    border: black solid 1px;
+    padding: 2em;
     font-size: 16px;
+    margin-bottom: 6.25em;
 }
-.headin1{
-    position: absolute;
-    padding: 40px;
-    font-size: 16px;
-    width: 380px;
-    top: 400px;
-    left: 200px;
+.colorblanco{
+    background-color: white;
     border: black solid 1px;
 }
-.headin2{
-    position: absolute;
-    padding: 40px;
-    font-size: 16px;
-    width: 380px;
-    top: 400px;
-    right: 200px;
-    border: black solid 1px;
-}
-.stylefooter{
+.colorgris{
     background-color: gray;
     color: white;
-    font-size: 16px;
     text-align: center;
-    position: absolute;
-    top: 1000px;
-    padding: 80px;
+    padding: 2em;
+}
+@media screen and (max-width:600px){
+    .col-12{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .col-12{
+        background-color: white;
+    }
+    .col-12 h2{
+        text-align: center;
+    }
+    .colo-12{
+        text-align: center;
+        margin-bottom: 0em;
+    }
+    .colorgris{
+        font-size: 12px;
+    }
 }
